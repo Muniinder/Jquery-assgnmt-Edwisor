@@ -1,0 +1,47 @@
+.accord{
+	background-color:#f0f0f5;
+	width:80%;
+	min-height: 50px;
+}
+.b,.b1,.b2{
+	margin:10px;
+	height:auto;
+}
+.collapse{
+	background-color: #f0f0f5;	
+	margin: 5px;
+}
+#collapse1_p{
+	display: none;
+	margin : 0px;
+	border: 0.5px solid grey;
+	padding: 0px 20px 0px 20px;
+	background-color: white;
+}
+#collapse2_p{
+	display: none;
+	margin : 0px;
+	border: 0.5px solid grey;
+	padding: 0px 20px 0px 20px;
+	background-color: white;
+
+}
+#collapse3_p{
+	display: none;
+	margin : 0px;
+	border: 0.5px solid grey;
+	padding: 0px 20px 0px 20px;
+	background-color: white;
+
+}
+.coll-head{
+	margin : 0 0 0 10px;
+	padding:5px;
+}
+button{
+	background-color:#f0f0f5;
+	border:none;
+}
+p{
+	display:hide;
+}
