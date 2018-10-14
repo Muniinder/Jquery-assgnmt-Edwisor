@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<title>Navbar</title>
+		<link rel = 'stylesheet' href = 'navbar.css'>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	</head>
+	
+	<body>
+		<div class='nav-container'>
+			<div class='left-nav'>
+				<div id='main-nav' ><a class='nav-links' href='#'><h2 style='margin:7px;'>Navbar</h2></a></div>
+				<div class='nav-div' ><a class='nav-links' href='#'><h3 style='margin:9px;'>Home</a></h3></div>
+				<div class='nav-div' ><a class='nav-links' href='#'><h3 style='margin:9px;'>Link</a></h3></div>
+				<div class='nav-div' ><a class='nav-links' id='disabled-div' href='#'><h3 style='margin:9px;'>Disabled</h3></a></div>
+				<div class='nav-div' id ='dd1' ><a class='nav-links' href='#'><h3 style='margin:9px;'>
+					Dropdown<i class="material-icons" style='float:right'>arrow_drop_down</i></h3></a>
+					<div class='dropdown-div' id='Dropdown-nav-ele'>
+						<div class='nav-div'><a class='nav-links' href='#'>Action</a></div>
+						<div class='nav-div'><a class='nav-links' href='#'>Another Action</a></div>
+						<div class='nav-div'><a class='nav-links' href='#'>Something else here</a></div>
+					</div>
+				</div>	
+			</div>
+			
+			<div class='right-nav'>
+				<div id='med-side' >
+					<a class='nav-links' id='dehaze-icon' href='#'><h2 style='margin:7px;'><i class="material-icons">dehaze</i></h2></a>
+				</div>
+				<div class='nav-div' ><a class='nav-links' href='#'><h2 style='margin:7px;'>Search</h2></a></div>
+				<input id= 'searchbar' type="text" placeholder="Search.." style='width:40%; padding:5px;'>
+			</div>
+			
+		</div>
+			<div class='imp'>
+				<div class='res-div'>
+					<div class='na-div' ><a class='nav-links' href='#'><h4 style='margin:10px;'>Home</h4></a></div>
+					<div class='na-div' ><a class='nav-links' href='#'><h4 style='margin:10px;'>Link</h4></a></div>
+					<div class='na-div' ><a class='nav-links' id='disabled-div' href='#'><h4 style='margin:10px;'>Disabled</h4></a></div>
+					<div class='na-div' id ='dd1'>
+						<a class='nav-links' id='dd2' href='#'><h4 style='margin:10px;display:inline-block;'>Dropdown</h4></a>
+						<div class='dropdown-div' id='Dropdown-nav-ele' style='background-color:white'>
+							<div class='na-div'><a class='nav-links' href='#'><h4>Action</h4></a></div>
+							<div class='na-div'><a class='nav-links' href='#'><h4>Another Action</h4></a></div>
+							<div class='na-div'><a class='nav-links' href='#'><h4>Something else here</h4></a></div>
+						</div>
+					</div>
+					<div class='na-div' ><a class='nav-links' href='#'><h4 style='margin:10px;'><input class='na-div' id= 'show-searchbar' type="text" placeholder="Search.." style='width:40%; padding:5px;'>    <span style='border:0.5px solid green;padding:5px;'>Search</span></h4></a></div>
+				
+				</div>
+			</div>
+		<script
+			src="https://code.jquery.com/jquery-3.2.1.min.js"
+				integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+				crossorigin="anonymous">
+		</script> 
+		 <script src="navbar.js"></script>
+	</body>
+
+</html>
