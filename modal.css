@@ -1,0 +1,43 @@
+body{
+	font-family:sans-serif;
+}
+.container{
+	opacity=1;
+}
+.links{
+	text-decoration: none;
+	color: white;
+}
+.modal-box{
+	border: 1px solid grey;
+	border-radius : 5px;
+	margin: 10% auto;
+	width:60%;
+	background-color :#f2f2f2;
+	display:none;
+	overflow:auto;
+}
+.modal-header{
+	width:95%;
+	margin:auto;
+}
+.close-icon{
+	float:right;
+	border:1px solid gren;
+}
+.modal-body{
+	border:1px solid grey;
+	border-radius:2px;
+	background-color : white;
+}
+.modal-footer{
+	display:flex;	
+	flex-direction:row-reverse;
+	width:95%;
+	margin:auto;
+	min-height:45px;
+}
+.modal-pg{
+	width:95%;
+	margin:auto;
+}
